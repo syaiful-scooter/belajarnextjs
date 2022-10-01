@@ -32,12 +32,7 @@ export default function LoginContainer() {
 
   return (
     <React.Fragment>
-      <Row
-        type="flex"
-        justify="center"
-        align="middle"
-        style={{ minHeight: "100vh" }}
-      >
+      <Row justify="center" align="middle" style={{ minHeight: "100vh" }}>
         <Col span={12} style={{ marginTop: 40 }}>
           <LoginComponent
             onSubmit={onSubmit}
